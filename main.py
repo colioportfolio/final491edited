@@ -6,7 +6,6 @@ checker = 0
 checker2 = 0
 checker3 = 0
 
-
 def wrong_bike():
     print("Sorry! That currently is not a bike option")
 
@@ -31,9 +30,6 @@ while checker == 0:
             garthBike.info()
             checker3 = 1
             checker = 1
-
-
-
 
     elif user in ["Wayne", "wayne", "WAYNE"]:
         # Create Wayne's car

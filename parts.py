@@ -1,6 +1,5 @@
 from abc import ABCMeta, abstractmethod
 
-
 class Wheel:
     x = ''
     count = 0
@@ -22,7 +21,6 @@ class Wheel:
             count = 0
             return count
         return count
-
 
 class Vehicle(ABCMeta):
 

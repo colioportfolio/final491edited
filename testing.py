@@ -9,7 +9,7 @@ class Test_Parts(unittest.TestCase):
 
     #function coverage
     def test_amount(self):
-        print("Function coverage. ")
+        print("Function coverage.  ")
         test = Wheel()
         car = "car"
         if self.assertEqual(test.amount(car), 4):
