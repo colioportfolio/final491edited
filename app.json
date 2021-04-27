@@ -3,7 +3,7 @@
     "test": {
     "scripts":{
         "test-setup": "",
-        "test": "python3 testing.py"
+        "test": "python3 -m unittest testing.py"
     }
     }
   }
