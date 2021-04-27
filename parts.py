@@ -9,15 +9,16 @@ class Wheel:
         self.wheelAmount = 0
 
     def amount(self, x):
-        print(x)
         if x in ["car"]:
+            print("This is a:", x)
             count = 4
             return count
         if x in ["bike"]:
+            print("This is a:", x)
             count = 2
             return count
         else:
-            print("does not apply")
+            print("This is a", x, "so it does not apply")
             count = 0
             return count
         return count

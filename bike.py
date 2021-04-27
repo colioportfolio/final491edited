@@ -16,6 +16,7 @@ class Bike:
     def set_wheel_amount(self):
         self.wheel = Wheel()
         self.wheel = Wheel.amount(self.p, self.p)
+        print("set_wheel_amount is set to: ", self.wheel)
         return True
 
     def owner(self):
@@ -23,6 +24,7 @@ class Bike:
         return self.name
 
     def get_wheel_amount(self):
+        print("get_wheel_amount is set to: ", self.wheel)
         return self.wheel
 
     def get_speed(self):

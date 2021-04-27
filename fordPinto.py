@@ -28,6 +28,7 @@ class Car:
         return True
 
     def get_speed(self):
+        Car.set_speed(self)
         return self.speed
 
     def color(self):
